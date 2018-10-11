@@ -19,4 +19,4 @@ Then, the `game()` function returns a string with the player score, the computer
 
 ---
 
-From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css).
+From The Odin Project's [curriculum](https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors).
