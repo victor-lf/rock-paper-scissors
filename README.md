@@ -17,7 +17,7 @@ The `toLowerCase()` method is used in `playerSelection`, and its first letter is
 Then, **conditional statements (if, else if)** are used to give the player or the computer a score based on the content of `roundResult` (using the `includes()` method). No one scores in case of a draw.  
 `console.log()` is used to inform the round number, the computer choice and the round result.  
 After the loop ends, a string is stored in the variable `message`. This string depends on the result of the game. If the player score is greater than the computer score, the string is 'You win!'. If the player score is less than the computer score, the string is 'You lose!'. Otherwise, the string is 'Draw!'. This is achieved using the **conditional (ternary) operator '?'**. We could use **if...else** statements, but as this is only a variable assignment that depends on some conditions, it's much shorter and simpler to use the ternary operator.  
-Then, the `game()` function returns a string with the player score, the computer score, and the value inside 'message'.
+Then, the `game()` function returns a string with the player score, the computer score, and the value inside `message`.
 
 ---
 
