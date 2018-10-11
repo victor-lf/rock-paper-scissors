@@ -12,18 +12,6 @@
         function computerPlay() {
             const choices = ['Rock', 'Paper', 'Scissors'];
             let random = Math.floor(Math.random() * 3);
-
-            // naive solution
-            /*let rand = Math.random();
-            if (rand < 1/3) {
-                return 'rock';
-            } else if (rand < 2/3) {
-                return 'paper';
-            } else {
-                return 'scissors';
-            } */
-
-            // simpler solution
             return choices[random];
         }
 
@@ -62,14 +50,6 @@
                 let computerSelection = computerPlay();
                 let roundResult = playRound(playerSelection, computerSelection);
 
-                // Using string comparison
-                /*if (roundResult > 'You win') {
-                    playerScore++;
-                } else if (roundResult > 'You lose') {
-                    computerScore++;
-                } */
-
-                // Using the includes() method
                 if (roundResult.includes('win')) {
                     playerScore++;
                 } else if (roundResult.includes('lose')) {
@@ -84,7 +64,8 @@
                       'Draw!';
 
             return `End result:
-                    \nYour score: ${playerScore} \nComputer score: ${computerScore} \n\n${message}`;
+                    \nYour score: ${playerScore} \nComputer score: ${computerScore} 
+                    \n\n${message}`;
         }
 
         console.log(game());
