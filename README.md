@@ -1,6 +1,6 @@
 # rock-paper-scissors
 
-This is a simple Rock Paper Scissors game written in JavaScript and played against the computer. The player plays a 5 round game that keeps score and reports whether the player wins or loses at the end. The results are shown in the browser console.  
+This is a simple Rock Paper Scissors game written in JavaScript and played against the computer. The player plays a 5 round game that keeps score and reports whether the player wins or loses at the end. The results are shown in the **browser console**.  
 It consists of three functions:
 
 - `computerPlay()`
