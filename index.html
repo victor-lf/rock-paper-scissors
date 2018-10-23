@@ -17,9 +17,11 @@
         }
 
         function playRound(playerSelection, computerSelection) {
+            
             'use strict';
             playerSelection = playerSelection.toLowerCase();
-            playerSelection = playerSelection.charAt(0).toUpperCase() + playerSelection.slice(1);
+            playerSelection = playerSelection.charAt(0).toUpperCase() + 
+                    playerSelection.slice(1);
 
             if ( (playerSelection == 'Rock' && computerSelection == 'Scissors') ||
                  (playerSelection == 'Paper' && computerSelection == 'Rock') ||
@@ -65,7 +67,7 @@
                       (playerScore < computerScore) ? 'You lose!' :
                       'Draw!';
 
-            return `End result:
+            return `\nEnd result:
                     \nYour score: ${playerScore} \nComputer score: ${computerScore}
                     \n${message}`;
         }
